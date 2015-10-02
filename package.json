@@ -2,22 +2,33 @@
   "name": "mongoose-visual",
   "description": "Generate a styled HTML document representing your loaded Mongoose.js Models",
   "version": "0.1.0",
-  "author" : "Edward Hotchkiss",
-  "maintainers":[
-    { "name":"Edward Hotchkiss", "email":"edward@edwardhotchkiss.com" }
+  "author": "Edward Hotchkiss",
+  "maintainers": [
+    {
+      "name": "Edward Hotchkiss",
+      "email": "edward@edwardhotchkiss.com"
+    }
   ],
-  "repository":{
-    "type":"git", "url":"git://github.com/edwardhotchkiss/mongoose-visual.git"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edwardhotchkiss/mongoose-visual.git"
   },
-  "keywords": ["mongoose", "model", "schema", "visual"],
+  "keywords": [
+    "mongoose",
+    "model",
+    "schema",
+    "visual"
+  ],
   "bin": {
     "mongoosevisual": "./bin/mongoose-visual.js"
   },
-  "dependencies" : {
-    "express":"2.5.9",
-    "mongoose":"2.6.7"
+  "dependencies": {
+    "express": "2.5.9",
+    "fs-extra": "^0.24.0",
+    "glob": "^5.0.15",
+    "mongoose": "3.8.15"
   },
-  "engines": { 
+  "engines": {
     "node": ">= 0.6.18"
   }
 }
